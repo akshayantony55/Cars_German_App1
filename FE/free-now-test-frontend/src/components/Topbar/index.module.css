@@ -1,0 +1,49 @@
+.topbar {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 96.9vw;
+    z-index: 1000;
+    border-bottom: 1px solid var(--black10);
+    height: 65px;
+    background: var(--black);
+    color: var(--white);
+}
+
+.leftContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 22px;
+    padding: 16px 60px 16px 16px;
+}
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+}
+
+.rightContainer > *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.avatarBtn {
+    position: relative;
+    cursor: pointer;
+}
+
+.active {
+    color: var(--orange);
+}

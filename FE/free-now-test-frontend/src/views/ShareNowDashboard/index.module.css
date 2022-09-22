@@ -1,0 +1,61 @@
+.container {
+    padding: 8px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .leftContainer {
+    flex: 40%;
+    margin: 0px 20px;
+  }
+  
+  .leftContainerList {
+    height: 55vh;
+    overflow-y: scroll;
+  }
+
+  .rightContainer {
+    flex: 44%;
+  }
+
+  .cardContent {
+      padding: 8px;
+  }
+
+  .contentRow {
+      display: flex;
+      padding: 4px;
+      flex-wrap: wrap;
+  }
+
+  .field {
+      padding: 4px;
+  }
+
+  .leftContent {
+    flex: 40%;
+  }
+
+  .rightContent {
+    flex: 26%;
+  }
+
+  .vechiclesHeader {
+    height: 57px;
+    width: 100%;
+    background-color: var(--blue);
+    padding: 24px 0px 24px 0px;
+    text-align: center;
+    font-size: 24px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+  }
+
+  .vechiclesHeader span {
+    padding-left: 24px;
+  }

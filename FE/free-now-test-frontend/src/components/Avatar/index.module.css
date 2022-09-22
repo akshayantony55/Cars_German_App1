@@ -1,0 +1,8 @@
+.avatar {
+    background: var(--green);
+    color: var(--white);
+    height: 30px;
+    width: 30px;
+    border: none;
+    text-transform: uppercase;
+  }
